@@ -1,0 +1,32 @@
+{
+  "name": "auth0-context-assistant",
+  "version": "1.0.0",
+  "description": "A context-preserving personal assistant that uses Auth0 login, a first-party settings API, and the Open-Meteo weather API.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "node --test test/*.test.js"
+  },
+  "keywords": [
+    "auth0",
+    "express",
+    "mlh",
+    "openid-connect",
+    "assistant"
+  ],
+  "author": "David Nizeyimana",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "express-oauth2-jwt-bearer": "^1.6.1",
+    "express-openid-connect": "^3.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
